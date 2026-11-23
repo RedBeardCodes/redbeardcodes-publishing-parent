@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>io.github.redbeardcodes</groupId>
+        <artifactId>redbeardcodes-parent</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <groupId>io.github.redbeardcodes</groupId>
+    <artifactId>redbeardcodes-publishing-parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>RedBeardCodes Publishing Parent</name>
+    <description>Shared publishing configuration for RedBeardCodes projects.</description>
+    <url>https://github.com/RedBeardCodes/redbeardcodes-publishing-parent</url>
+
+    <developers>
+        <developer>
+            <id>redbeardcodes</id>
+            <name>Jeff Rogers</name>
+            <email>redbeardcodes@gmail.com</email>
+            <organization>RedBeardCodes</organization>
+            <organizationUrl>https://github.com/RedBeardCodes</organizationUrl>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:https://github.com/RedBeardCodes/redbeardcodes-publishing-parent.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/RedBeardCodes/redbeardcodes--parent.git</developerConnection>
+        <url>https://github.com/RedBeardCodes/redbeardcodes-publishing-parent</url>
+    </scm>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+        <maven.compiler.release>21</maven.compiler.release>
+    </properties>
+
+</project>
+
