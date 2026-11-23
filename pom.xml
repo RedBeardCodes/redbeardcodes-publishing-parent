@@ -9,7 +9,7 @@
     <parent>
         <groupId>io.github.redbeardcodes</groupId>
         <artifactId>redbeardcodes-parent</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0</version>
         <relativePath/>
     </parent>
 
@@ -99,6 +99,7 @@
                                 <configuration>
                                     <keyname>${redbeardcodes.signing.fingerprint}</keyname>
                                     <bestPractices>true</bestPractices>
+                                    <ascDirectory>${project.build.directory}</ascDirectory>
                                 </configuration>
                             </execution>
                         </executions>
